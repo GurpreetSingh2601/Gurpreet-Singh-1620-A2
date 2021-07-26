@@ -24,3 +24,11 @@
 	background-color: #74526C;
 	color: #DBD053;
 }
+
+.budget-card{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+	max-width: 100px;
+	background-color: #C89933;
+}
