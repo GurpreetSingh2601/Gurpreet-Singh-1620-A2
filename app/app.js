@@ -13,7 +13,8 @@ function budgetCardTemp(){
 }
 
 function gettitle(){
-
+	const title=document.querySelector('#title')
+	return title.value
 }
 
 function getitems(){
