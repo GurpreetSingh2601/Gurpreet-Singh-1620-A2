@@ -1,4 +1,4 @@
-function budgetCardTemp(){
+function budgetCardTemp(){			//Template for getting user values 
 	const card=`
 	<div class="budget-card">
 		<form>
@@ -32,7 +32,14 @@ function gettotal(){
 
 }
 
-function getvals(){
+function appendbudgetCard(){ 		//function to append budget cards
+	const divtwo=document.querySelector('.div-two')
+	document.insertAdjacentHTML('afterbegin', budgetCardTemp())
+
+}
+
+
+function getvals(){				//function to get values and display form after clicking new budget button"
 	const buton=document.querySelector('#new-budget')
 	buton.addEventListener('click', () => {
 		const div=document.querySelector('.div-two')
