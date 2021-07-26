@@ -1,12 +1,26 @@
 *{
 	margin: 0;
+	padding: 0;
 	font-family: 'Bona Nova', serif;
+	background-color: #DBD053;
 }
 
 .navbar p{
 	text-align: center;
 	padding: 14px 16px;
-	background-color: blue ;
+	background-color: #C89933 ;
 	font-size: 28px;
 
+}
+
+.div-two{
+	display: flex;
+	justify-content: space-between;
+	padding: 25px;
+}
+
+#new-budget{
+	padding: 15px;
+	background-color: #74526C;
+	color: #DBD053;
 }

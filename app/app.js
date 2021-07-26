@@ -9,7 +9,9 @@ function budgetCardTemp(){
 			<label for="item2">Item 2:</label><br>
 			<input type="text" name="item2" id='item2'><br>
 		</form>
-	`
+	</div>`
+	
+	return card
 }
 
 function gettitle(){
@@ -33,12 +35,12 @@ function gettotal(){
 function getvals(){
 	const buton=document.querySelector('#new-budget')
 	buton.addEventListener('click', () => {
-	const div=document.querySelector('.div-two')
-	const title=getTitle()
-	const items=getitems()
-	const total=gettotal()
-	div.insertAdjacentHTML()
-	}
+		const div=document.querySelector('.div-two')
+		const title=getTitle()
+		const items=getitems()
+		const total=gettotal()
+		div.insertAdjacentHTML('beforeend',budgetCardTemp())
+	})
 }
 
 function cleanup(){
