@@ -18,10 +18,15 @@ function gettitle(){
 }
 
 function getitems(){
-
+	const item1=document.querySelector('#item1')
+	item1val=item1.value
+	const item2=document.querySelector('#item2')
+	return item1val, item2val
 }
 
 function gettotal(){
+	const total=item1val+item2val;
+	return total
 
 }
 
