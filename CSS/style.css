@@ -1,0 +1,11 @@
+*{
+	margin: 0;
+}
+
+.navbar p{
+	text-align: center;
+	padding: 14px 16px;
+	background-color: blue ;
+	font-size: 28px;
+
+}
